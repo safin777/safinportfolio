@@ -13,9 +13,10 @@
 :root{
   --color-bg: black;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #11e438;
+  /* --color-primary: #11e438; */
+  --color-primary: #84BE68;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: rgb(60, 214, 9);
+  --color-white: #84BE68;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
@@ -128,7 +129,7 @@ img{
 
   /* ==================Media Query (Small Mobile)================ */
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 600px) {
     .container{
       width: var(--container-width-sm);
     }
