@@ -1,0 +1,9 @@
+nav{
+  background: rgba(17, 226, 108, 0.464);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index:2;
+  /* position: fixed; */
+
+}
