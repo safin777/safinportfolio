@@ -1,0 +1,37 @@
+.experience__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap : 2rem;
+  
+}
+
+.experience__container > div {
+  background: rgba(54, 74, 54, 0.407);
+  padding:2.4rem 5rem ;
+  border-radius: 2rem;
+  border:1px solid transparent;
+  transition: var(--transition);
+  
+}
+
+.experience__container > div:hover {
+  background:transparent;
+  border:1px solid rgba(52, 245, 9, 0.803);
+  cursor:default;
+  
+}
+
+.experience__content{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  row-gap : 2rem;
+}
+
+.experience__details{
+  display:flex;
+  gap: 1rem;
+}
+
+.experience__icon{
+  font-size: 2.5rem;
+}
