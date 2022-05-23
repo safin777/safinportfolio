@@ -25,6 +25,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr ;
   row-gap : 2rem;
+  gap: 2rem;
 }
 
 .experience__details{
@@ -34,4 +35,60 @@
 
 .experience__icon{
   font-size: 2.5rem;
+}
+
+.experience__title{
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.experience__content-title{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+/* ==================Media Query (Medium Tablates)================ */
+
+@media screen and (max-width: 1024px) {
+   .experience__container{
+    grid-template-columns: 1fr;
+}
+
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .experience__content{
+    padding: 1rem;
+  }
+
+
+  .experience__icon{
+    font-size: 2.4rem;
+  }
+
+  
+}
+
+
+/* ==================Media Query (Small Mobile)================ */
+
+@media screen and (max-width: 600px) {
+  
+  .experience__container {
+     gap: 1rem;
+  }
+
+  .experience__container > div{
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .experience__icon{
+    font-size: 2rem;
+  }
+
 }

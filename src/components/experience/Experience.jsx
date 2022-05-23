@@ -1,17 +1,32 @@
 import React from "react";
 import "./experience.css";
-
+import {SiCss3} from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
-
+import { SiBootstrap } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiVuedotjs } from "react-icons/si";
+import { SiJquery } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiLaravel } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
+import {SiExpress} from "react-icons/si";
+import { SiPhp } from "react-icons/si";
+import {SiPython} from "react-icons/si";
+import {SiNextdotjs} from "react-icons/si";
+import {SiMysql} from "react-icons/si";
+import {SiGit} from "react-icons/si";
+import {SiMongodb} from "react-icons/si";
+import {SiDocker} from "react-icons/si";
 const Experience = () => {
     return (
         <section id="experience">
             <h5>What Skills I Have</h5>
-            <h1>My Experiences</h1>
+            <h1 className="experience__title">My Experiences</h1>
 
             <div className="container experience__container">
                 <div className="experience__frontend">
-                    <h3>Frontend Development</h3>
+                    <h3 className="experience__content-title">Frontend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
                         <SiHtml5 className="experience__icon" />
@@ -24,9 +39,9 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiCss3 className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>CSS</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -34,9 +49,9 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiBootstrap className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>Bootstrap</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -44,9 +59,41 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiTailwindcss className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>Tailwind CSS</h5>
+                                <small className="text-light">
+                                    Intermediate
+                                </small>
+                            </div>
+                        </article>
+
+                        <article className="experience__details">
+                        <SiReact className="experience__icon" />
+                            <div>
+                                <h5>React</h5>
+                                <small className="text-light">
+                                    Intermediate
+                                </small>
+                            </div>
+                        </article>
+
+                        <article className="experience__details">
+                        <SiVuedotjs className="experience__icon" />
+                            <div>
+                                <h5>Vue</h5>
+                                <small className="text-light">
+                                    Intermediate
+                                </small>
+                            </div>
+                        </article>
+
+                        
+
+                        <article className="experience__details">
+                        <SiJquery className="experience__icon" />
+                            <div>
+                                <h5>Jquery</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -54,29 +101,9 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiJavascript className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
-                                <small className="text-light">
-                                    Experienced
-                                </small>
-                            </div>
-                        </article>
-
-                        <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
-                            <div>
-                                <h5>HTML</h5>
-                                <small className="text-light">
-                                    Experienced
-                                </small>
-                            </div>
-                        </article>
-
-                        <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
-                            <div>
-                                <h5>HTML</h5>
+                                <h5>Javascript</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -88,12 +115,12 @@ const Experience = () => {
                 {/* End of frontEnd */}
 
                 <div className="experience__backend">
-                    <h3>Backend Development</h3>
+                    <h3 className="experience__content-title">Backend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiLaravel className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>Laravel</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -101,9 +128,9 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiPhp className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>PHP</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -111,9 +138,9 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiNodedotjs className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>Node Js</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -121,9 +148,9 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiExpress className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>Express Js</h5>
                                 <small className="text-light">
                                     Experienced
                                 </small>
@@ -131,21 +158,61 @@ const Experience = () => {
                         </article>
 
                         <article className="experience__details">
-                        <SiHtml5 className="experience__icon" />
+                        <SiPython className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>Python</h5>
                                 <small className="text-light">
-                                    Experienced
+                                    Intermediate
                                 </small>
                             </div>
                         </article>
 
                         <article className="experience__details">
-                            <SiHtml5 className="experience__icon" />
+                            <SiNextdotjs className="experience__icon" />
                             <div>
-                                <h5>HTML</h5>
+                                <h5>Next.Js</h5>
                                 <small className="text-light">
-                                    Experienced
+                                Intermediate
+                                </small>
+                            </div>
+                        </article>
+
+                        <article className="experience__details">
+                            <SiMysql className="experience__icon" />
+                            <div>
+                                <h5>My Sql</h5>
+                                <small className="text-light">
+                                Experienced
+                                </small>
+                            </div>
+                        </article>
+
+                        <article className="experience__details">
+                            <SiMongodb className="experience__icon" />
+                            <div>
+                                <h5>Mongodb</h5>
+                                <small className="text-light">
+                                Intermediate
+                                </small>
+                            </div>
+                        </article>
+
+                        <article className="experience__details">
+                            <SiGit className="experience__icon" />
+                            <div>
+                                <h5>Git</h5>
+                                <small className="text-light">
+                                Experienced
+                                </small>
+                            </div>
+                        </article>
+
+                        <article className="experience__details">
+                            <SiDocker className="experience__icon" />
+                            <div>
+                                <h5>Docker</h5>
+                                <small className="text-light">
+                                Intermediate
                                 </small>
                             </div>
                         </article>

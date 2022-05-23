@@ -1,9 +1,10 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/img/me2.png";
+import ME from "../../assets/img/me2.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
+
 
 const About = () => {
     return (
