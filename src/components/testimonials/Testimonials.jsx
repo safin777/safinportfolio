@@ -41,7 +41,7 @@ const Testimonials = () => {
     return (
         <section id="testimonials">
             <h5>Review from Clients</h5>
-            <h2>Testimonials</h2>
+            <h1 className="testimonial__title">Testimonials</h1>
 
             <div className=" container testimonials__container">
                 {data.map(({ id, avatar, name, review }) => {
