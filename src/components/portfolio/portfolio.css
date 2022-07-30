@@ -29,6 +29,12 @@
   overflow: hidden;
 }
 
+.portfolio__item-img img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .portfolio__item h3{
   margin: 1.2rem 0 2rem;
 }
