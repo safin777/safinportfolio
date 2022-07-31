@@ -39,6 +39,10 @@
   
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  background:var(--color-primary);
+}
+
 /* ==================Media Query (Medium Tablates)================ */
 
 @media screen and (max-width: 1024px) {
