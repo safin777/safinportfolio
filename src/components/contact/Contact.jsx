@@ -2,8 +2,8 @@ import React from "react";
 import "./contact.css";
 
 import { MdMarkEmailRead } from "react-icons/md";
-import { BsGithub } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+//import { BsGithub } from "react-icons/bs";
+//import { FaLinkedin } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsSkype } from "react-icons/bs";
 
