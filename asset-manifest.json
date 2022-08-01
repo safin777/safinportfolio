@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/safinportfolio/static/css/main.c4a62f90.css",
+    "main.js": "/safinportfolio/static/js/main.299af64a.js",
+    "static/media/Portfolio4.png": "/safinportfolio/static/media/Portfolio4.3164a2c43f176af9697b.png",
+    "static/media/me.png": "/safinportfolio/static/media/me.3164a2c43f176af9697b.png",
+    "static/media/Portfolio3.png": "/safinportfolio/static/media/Portfolio3.b4f8fb39605f83bb5ba2.png",
+    "static/media/Portfolio2.png": "/safinportfolio/static/media/Portfolio2.279cfd89da10f5fc3ee5.png",
+    "static/media/Portfolio1.png": "/safinportfolio/static/media/Portfolio1.864250594daf63d86b70.png",
+    "static/media/cv.pdf": "/safinportfolio/static/media/cv.d97917986d502cfe6dcd.pdf",
+    "static/media/me2.jpg": "/safinportfolio/static/media/me2.775c76dc94774354a56b.jpg",
+    "static/media/bg-2.jpg": "/safinportfolio/static/media/bg-2.6cea7b6707c2666c56ee.jpg",
+    "index.html": "/safinportfolio/index.html",
+    "main.c4a62f90.css.map": "/safinportfolio/static/css/main.c4a62f90.css.map",
+    "main.299af64a.js.map": "/safinportfolio/static/js/main.299af64a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4a62f90.css",
+    "static/js/main.299af64a.js"
+  ]
+}
