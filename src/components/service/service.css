@@ -20,13 +20,13 @@
 
 .service:hover{
   background: transparent;
-  border: 1px solid #06f019;
+  border: 1px solid #51dc5f;
   cursor: default;
   transition: var(--transition);
 }
 
 .service__head{
-  background: var(--color-primary);
+  background: rgb(4, 161, 67);
   color: white;
   padding: 2rem;
   border-radius:0 0 2rem 2rem;

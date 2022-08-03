@@ -24,23 +24,23 @@ const Service = () => {
 
             <li>
               <BiCheckboxSquare className='service__list-icon' />
-              <p>Create design for multiple platform</p>
+              <p>Create Responsive website</p>
             </li>
 
             <li>
               <BiCheckboxSquare className='service__list-icon' />
-              <p>Create design for multiple platform</p>
+              <p>Design with pixel perfection</p>
             </li>
 
             <li>
               <BiCheckboxSquare className='service__list-icon' />
-              <p>Create design for multiple platform</p>
+              <p>Working with Tailwind,Bootstrap,Material UI and basic CSS3</p>
             </li>
 
-            <li>
+            {/* <li>
               <BiCheckboxSquare className='service__list-icon' />
               <p>Create design for multiple platform</p>
-            </li>
+            </li> */}
           </ul>
         </article> 
 
